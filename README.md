@@ -18,6 +18,12 @@ Make sure you have the following installed:
 
 ---
 
+### Architecture diagram of the login flow
+
+![image](https://github.com/user-attachments/assets/ab220b4b-8ff5-4c46-b1c3-6b61c62cce23)
+
+---
+
 ## 🔐 Auth0 Configuration
 
 ### 1. Create an Application in Auth0:
