@@ -45,3 +45,58 @@ Make sure you have the following installed:
 ```bash
 git clone <repository_url>
 cd <project_directory>
+
+## 📄 Install Dependencies
+
+Create a file named `requirements.txt` with the following content:
+
+```txt
+flask>=2.0.3
+python-dotenv>=0.19.2
+authlib>=1.0
+requests>=2.27.1
+```
+
+Then, install all dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔐 Environment Configuration
+
+Create a `.env` file in the root directory of your project and add the following variables:
+
+```env
+AUTH0_CLIENT_ID=<Your Auth0 Client ID>
+AUTH0_CLIENT_SECRET=<Your Auth0 Client Secret>
+AUTH0_DOMAIN=<Your Auth0 Domain>
+APP_SECRET_KEY=<Your Generated Secret Key>
+```
+
+### Generate a secure secret key:
+```bash
+openssl rand -hex 32
+```
+
+---
+
+## 🚀 Running the Application
+
+Start your Flask server by running:
+
+```bash
+python3 server.py
+```
+
+Then open your browser and go to:
+
+```
+http://localhost:3000
+```
+
+---
+
+✅ You're now ready to test login, logout, and protected routes with Auth0!
