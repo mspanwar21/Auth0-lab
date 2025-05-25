@@ -3,6 +3,7 @@
 **Name:** Mohit Singh Panwar  
 **Student ID:** 041167761  
 **Email:** panw0011@algonquinlive.com  
+**Video DEMO:** https://www.youtube.com/watch?v=BPMhRb7ZdRc&t=12s
 
 This project demonstrates how to integrate user authentication into a Python web application using the Flask framework and Authlib OAuth library, with **Auth0** as the authentication provider.
 
@@ -105,4 +106,3 @@ http://localhost:3000
 
 ---
 
-✅ You're now ready to test login, logout, and protected routes with Auth0!
